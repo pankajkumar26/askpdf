@@ -1,0 +1,23 @@
+.tiles{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap:10%;
+    margin: 10vw;
+}
+
+.tile{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#tile1{
+    background: url('../static/images/Tool1.jpg');
+}
